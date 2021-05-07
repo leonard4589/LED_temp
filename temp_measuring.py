@@ -5,5 +5,5 @@ import neopixel
 pixels = neopixel.NeoPixel(board.D18, 20)
 T = 13
 x = T - 10
-for i in range(0,20,x):
+for i in range(0,x,1):
   pixels[i] = (255,0,0)
